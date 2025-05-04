@@ -129,9 +129,6 @@ def value_iteration(
     """
     n_states, n_actions = R_sa.shape
     V = np.zeros(n_states, dtype=float)
-    if seed is None:
-        seed = np.random.randint(0, 2**32 - 1)
-    rng = np.random.default_rng(seed)
     pi = None
 
     # TODO: update V using the Q values until convergence

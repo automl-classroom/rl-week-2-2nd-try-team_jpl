@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+from typing import Any, SupportsFloat
+
 import gymnasium as gym
 import numpy as np
 
